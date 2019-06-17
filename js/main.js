@@ -1,5 +1,6 @@
 $(document).ready(function() {
   "use strict";
+ 
 
   var window_width = $(window).width(),
     window_height = window.innerHeight,
@@ -430,5 +431,9 @@ $(document).ready(function() {
     $("#mc_embed_signup")
       .find("form")
       .ajaxChimp();
+  });
+  $('[data-fancybox="gallery"]').fancybox({
+    // Options will go here
+   
   });
 });
