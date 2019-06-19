@@ -3359,3 +3359,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #f81c1c; }
 
 /*# sourceMappingURL=main.css.map */
+.service-area img {
+  border-radius: 10px;
+}
+.gallery-hight {
+  height: 250px !important ;
+}
