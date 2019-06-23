@@ -609,10 +609,14 @@ th {
 
 .overlay {
   position: absolute;
-  left: 0;
+  left: 10%;
   right: 0;
-  top: 0;
-  bottom: 0; }
+  top: 80%;
+  bottom: 0; 
+  color:#f1f1f1;
+  font-family: "Roboto", sans-serif;
+  
+}
 
 .container.fullwidth {
   width: 100%; }
@@ -2122,7 +2126,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff; }
 
 .home-banner-area {
-  background: #f7f7f7;
+  
   position: relative; }
   .home-banner-area .fullscreen {
     height: 788px; }
@@ -2133,7 +2137,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding-left: 21%; }
     @media (max-width: 1480px) {
       .home-banner-area .container-fluid {
-        padding-left: 15px;
+        padding-left: 15%;
         max-width: 1140px; } }
     @media (max-width: 1199px) {
       .home-banner-area .container-fluid {
@@ -2146,7 +2150,7 @@ body.mobile-nav-active #mobile-nav-toggle {
         max-width: 540px; } }
     @media (min-width: 1921px) {
       .home-banner-area .container-fluid {
-        padding-left: 29%; } }
+        padding-left: 25%; } }
   .home-banner-area .social-icons {
     position: absolute;
     top: 50%;
@@ -2167,23 +2171,25 @@ body.mobile-nav-active #mobile-nav-toggle {
         left: -100px; } }
     @media (max-width: 1199px) {
       .home-banner-area .social-icons {
-        left: -140px; } }
+         } }
     @media (max-width: 1024px) {
       .home-banner-area .social-icons {
-        display: none; } }
+ 
+         } }
     .home-banner-area .social-icons ul li {
-      font-size: 14px;
+      font-size: 16px;
+      font-weight: bold;
       display: inline;
       margin-right: 40px; }
       @media (max-width: 576px) {
         .home-banner-area .social-icons ul li {
-          font-size: 12px;
+          font-size: 16px;
           margin: 0 1px; } }
       .home-banner-area .social-icons ul li a {
-        color: #777777;
+        color: #000;
         display: inline-block;
         text-align: center;
-        font-size: 14px;
+        font-size: 18px;
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
         -o-transition: all 0.3s ease-in-out;
@@ -2191,7 +2197,9 @@ body.mobile-nav-active #mobile-nav-toggle {
         .home-banner-area .social-icons ul li a:hover {
           color: #f81c1c; }
         .home-banner-area .social-icons ul li a i {
-          margin-right: 8px; }
+          margin-right: 8px;
+          color: #f81c1c; 
+         }
 
 .banner-area {
   background: url(../img/banner/common-banner.jpg) no-repeat;
@@ -3364,4 +3372,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .gallery-hight {
   height: 250px !important ;
+}
+
+.head-img{
+  background-image: url(../img/header-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover
+}
+.header-p {
+  color: #000000;
+  font-size: 22px;
+  max-width: 650px;
 }
