@@ -3399,3 +3399,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 0 11%
 
 }
+@media (min-width : 1061px) {
+  .oneline {
+    padding-bottom: +19%
+    }
+}
